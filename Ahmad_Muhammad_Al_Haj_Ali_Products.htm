@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            text-align: right;
+        }
+        .container {
+            width: 95%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            
+        }
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 36px;
+            color: #333;
+            margin: 0;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* تحديد عرض الشبكة */
+            gap: 20px;
+        }
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out, background-color 0.3s, border-color 0.3s;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: 400px; 
+            object-fit: cover; 
+            transition: transform 0.3s ease-in-out;
+        }
+        .product:hover {
+            background-color: #f0f8ff; 
+            border-color: #007bff; 
+        }
+        .product-info {
+            padding: 15px;
+        }
+        .product-info h3 {
+            font-size: 18px;
+            margin: 0 0 10px;
+            color: #333;
+        }
+        .product-info p {
+            font-size: 14px;
+            color: #777;
+            margin: 0 0 15px;
+        }
+        .product-info .price {
+            font-size: 22px;
+            font-weight: bold;
+            color: #e74c3c;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    
+<div class="container">
+    <div class="header">
+        <h1>اكتشف أحدث منتجاتنا التقنية</h1>
+    </div>
+
+    <div class="product-grid">
+        
+        <div class="product">
+            <img src="product1.jpg" alt="منتج 1">
+            <div class="product-info">
+                <h3>الحاسب رقم 1</h3>
+                <p>وصف مختصر للمنتج 1. يتضمن الميزات الرئيسية والخصائص المميزة.</p>
+                <span class="price">$950</span><br>
+                <a href="#" class="btn">إضافة إلى السلة</a>
+            </div>
+        </div>
+          
+          <div class="product">
+            <img src="product2.jpg" alt="منتج 2">
+            <div class="product-info">
+                <h3>الحاسب رقم 2</h3>
+                <p>وصف مختصر للمنتج 2. يتضمن الميزات الرئيسية والخصائص المميزة.</p>
+                <span class="price">$900</span><br>
+                <a href="#" class="btn">إضافة إلى السلة</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="product3.jpg" alt="منتج 3">
+            <div class="product-info">
+                <h3>الحاسب رقم 3</h3>
+                <p>وصف مختصر للمنتج 3. يتضمن الميزات الرئيسية والخصائص المميزة.</p>
+                <span class="price">$850</span><br>
+                <a href="#" class="btn">إضافة إلى السلة</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="product4.jpg" alt="منتج 4">
+            <div class="product-info">
+                <h3>الحاسب رقم 4</h3>
+                <p>وصف مختصر للمنتج 4. يتضمن الميزات الرئيسية والخصائص المميزة.</p>
+                <span class="price">$800</span><br>
+                <a href="#" class="btn">إضافة إلى السلة</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="product5.jpg" alt="منتج 5">
+            <div class="product-info">
+                <h3>الحاسب رقم 5</h3>
+                <p>وصف مختصر للمنتج 5. يتضمن الميزات الرئيسية والخصائص المميزة.</p>
+                <span class="price">$750</span><br>
+                <a href="#" class="btn">إضافة إلى السلة</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="product6.jpg" alt="منتج 6">
+            <div class="product-info">
+                <h3>الحاسب رقم 6</h3>
+                <p>وصف مختصر للمنتج 6. يتضمن الميزات الرئيسية والخصائص المميزة.</p>
+                <span class="price">$700</span><br>
+                <a href="#" class="btn">إضافة إلى السلة</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="product7.jpg" alt="منتج 7">
+            <div class="product-info">
+                <h3>الحاسب رقم  7</h3>
+                <p>وصف مختصر للمنتج 7. يتضمن الميزات الرئيسية والخصائص المميزة.</p>
+                <span class="price">$650</span><br>
+                <a href="#" class="btn">إضافة إلى السلة</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="product8.jpg" alt="منتج 8">
+            <div class="product-info">
+                <h3>الحاسب رقم 8</h3>
+                <p>وصف مختصر للمنتج 8. يتضمن الميزات الرئيسية والخصائص المميزة.</p>
+                <span class="price">$600</span><br>
+                <a href="#" class="btn">إضافة إلى السلة</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="product9.jpg" alt="منتج 9">
+            <div class="product-info">
+                <h3>الحاسب رقم 9</h3>
+                <p>وصف مختصر للمنتج 9. يتضمن الميزات الرئيسية والخصائص المميزة.</p>
+                <span class="price">$550</span><br>
+                <a href="#" class="btn">إضافة إلى السلة</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="product10.jpg" alt="منتج 10">
+            <div class="product-info">
+                <h3>الحاسب رقم 10</h3>
+                <p>وصف مختصر للمنتج 10. يتضمن الميزات الرئيسية والخصائص المميزة.</p>
+                <span class="price">$500</span><br>
+                <a href="#" class="btn">إضافة إلى السلة</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="" alt="منتج 11">
+            <div class="product-info">
+                <h3>الحاسب رقم 11</h3>
+                <p>وصف مختصر للمنتج 11. يتضمن الميزات الرئيسية والخصائص المميزة.</p>
+                <span class="price">$450</span><br>
+                <a href="#" class="btn">إضافة إلى السلة</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="product12.jpg" alt="منتج 12">
+            <div class="product-info">
+                <h3>الحاسب رقم 12</h3>
+                <p>وصف مختصر للمنتج 12. يتضمن الميزات الرئيسية والخصائص المميزة.</p>
+                <span class="price">$400</span><br>
+                <a href="#" class="btn">إضافة إلى السلة</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 جميع الحقوق محفوظة</p>
+    </div>
+</div>
+    
+</body>
+</html>
