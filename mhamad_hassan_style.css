@@ -16,3 +16,15 @@
         color: #fff;
        
     }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px;
+    }
+
+    header .logo{
+        font-size: 30px;
+        text-transform: uppercase;
+    }
