@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4158A6; /* لون الخلفية الأساسي */
+    background-image: url('https://images.pexels.com/photos/974264/pexels-photo-974264.jpeg'); /* مسار الصورة الخلفية */
+    background-size: cover; /* تغطية كامل الخلفية */
+    background-position: center; /* توسيط الصورة */
+    background-attachment: fixed; /* تثبيت الصورة بحيث تبقى ثابتة عند التمرير */
+    margin: 0;
+    padding: 0;
+    color: #fff; /* لون النص */
+    padding-top: 30px; /* مسافة فارغة في أعلى الصفحة */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* خلفية بيضاء شفافة للنموذج */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* زيادة شدة الظل */
+    border-radius: 8px; /* إضافة زوايا دائرية */
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #4158A6; /* لون العنوان */
+}
+
+main {
+    padding: 0 20px;
+}
