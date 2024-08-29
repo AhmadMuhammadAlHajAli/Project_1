@@ -84,6 +84,18 @@
         margin: 0;
         color: #4158A6; /* لون العنوان */
     }
+    
+    .ww{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .ww h1 {
+        margin: 0;
+        color: #4158A6; /* لون العنوان */
+    }
+
+
 
     main {
         padding: 0 20px;
