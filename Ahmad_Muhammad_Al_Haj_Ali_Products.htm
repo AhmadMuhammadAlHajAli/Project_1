@@ -3,22 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Products </title>
     <style>
         
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f1f1f1;
+            background-color:rgb(239, 156, 102) ;
             margin: 0;
             padding: 0;
-            direction: rtl;
+            direction: ltr;
             text-align: right;
         }
+        a{
+        text-decoration: none;
+        color: #fff;
+       
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px;
+    }
+
+    header .logo{
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+     
+    header > ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+
+
+
+    header ul li{
+
+        margin-right:30px;
+       
+    }
+    
+    header ul li a{
+    
+
+        padding: 6px 15px ;
+        border-radius: 20px;
+        transition: all 0.6s;
+    } 
+
+    
+    header ul li a:hover, .home{
+        background:#fff;
+        color: aqua;
+    }
+
+    .logo{
+        
+        text-shadow: 0 0 20px #00fffb,0 0 40px #0081bc;
+    }
         .container {
             width: 95%;
             margin: 20px auto;
             padding: 20px;
-            background-color: #fff;
+            background-color:rgba(255,255,255,0.8);
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
             
@@ -100,7 +152,18 @@
     </style>
 </head>
 <body>
-    
+    <header>
+        <h2 ><a href="#" class="logo">Technical Products</a></h2>
+                <ul>
+                    <li><a href="mhamad_hassan_index.html" class="home">Home</a></li>
+                    <li><a href="Ahmad_Muhammad_Al_Haj_Ali_Products.htm" target="_blank" class="">products </a></li>
+                    <li><a href="mustafaAesmaeeloffers.html" class="">Offers</a></li>
+                    <li><a href="News.html" target="_blank" >Technicl blog</a></li>
+                    <li><a href="Contact_mhamad_hasan.html "target = "_blank" class="">contact</a></li>
+                </ul>
+        </header>
+        
+  
 <div class="container">
     <div class="header">
         <h1>اكتشف أحدث منتجاتنا التقنية</h1>
@@ -231,7 +294,6 @@
     <div class="footer">
         <p>&copy; 2024 جميع الحقوق محفوظة</p>
     </div>
-</div>
-    
+</div> 
 </body>
 </html>
