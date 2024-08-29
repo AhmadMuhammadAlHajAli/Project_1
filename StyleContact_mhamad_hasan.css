@@ -1,6 +1,6 @@
     body {
         font-family: Arial, sans-serif;
-        background-color: #4158A6; /* لون الخلفية الأساسي */
+    
         background-image: url('https://images.pexels.com/photos/974264/pexels-photo-974264.jpeg'); /* مسار الصورة الخلفية */
         background-size: cover; /* تغطية كامل الخلفية */
         background-position: center; /* توسيط الصورة */
@@ -8,11 +8,65 @@
         margin: 0;
         padding: 0;
         color: #fff; /* لون النص */
-        padding-top: 30px; /* مسافة فارغة في أعلى الصفحة */
+        padding-top: 10px; /* مسافة فارغة في أعلى الصفحة */
+    }
+    
+    a{
+        text-decoration: none;
+        color: #fff;
+    
     }
 
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px;
+    }
+
+    header .logo{
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    
+    header > ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+
+
+
+    header ul li{
+
+        margin-right:30px;
+    
+    }
+
+    header ul li a{
+
+
+        padding: 6px 15px ;
+        border-radius: 20px;
+        transition: all 0.6s;
+    } 
+
+
+    header ul li a:hover, .home{
+        background:#fff;
+        color: aqua;
+    }
+
+    .logo{
+        
+        text-shadow: 0 0 20px #00fffb,0 0 40px #0081bc;
+    }
+
+
     .container {
-        max-width: 800px;
+        max-width: 600px;
         margin: 0 auto;
         padding: 20px;
         background-color: rgba(255, 255, 255, 0.8); /* خلفية بيضاء شفافة للنموذج */
@@ -52,3 +106,30 @@
         border: 1px solid #ccc;
         border-radius: 4px;
     }
+    
+    button{
+        background-color:cornsilk;
+    }
+    
+    /* تنسيق أيقونات التواصل الاجتماعي */
+    footer {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .social-media {
+        display: flex;
+        justify-content: center;
+        gap: 30px; /* مسافة بين الأيقونات */
+        margin-top: 20px;
+    }
+    
+    .social-media {
+        color:#0081bc;
+        font-size: 35px;
+        transition: color 0.3s;
+    }
+    
+    .social-media:hover {
+        color: #4158A6;
+    }
+    
